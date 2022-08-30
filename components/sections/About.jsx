@@ -16,13 +16,11 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Hi, I&apos;m Steph! A Software Test Engineer with
-        6 years of experience
+        Hi, I&apos;m Steph! A Software Test Engineer with 6 years of experience
         in software testing and two ISTQB Certifications--Certified Tester
         Foundation Level and Certified Tester Advanced Level Test Automation
         Engineer, I am adept in frontend and backend testing, test case
-        creation, user requirements understanding,
-        creating automation scripts
+        creation, user requirements understanding, creating automation scripts
         using Selenium and Robot Framework, and knowledge in Agile methodology.
       </Text>
       <Text>
