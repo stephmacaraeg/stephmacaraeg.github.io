@@ -18,9 +18,9 @@ const Bio = ({ secondary }) => (
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
         Hi, I&apos;m Steph! A Software Test Engineer with 6 years of experience
-         in software testing and two ISTQB Certifications (<strong style={{ color: secondary }}>Certified Tester Foundation Level</strong> and <strong style={{ color: secondary }}>Certified Tester Advanced Level Test Automation Engineer</strong>), 
-         I am adept in frontend and backend testing, test case creation, user requirements understanding, 
-         creating automation scripts using Selenium and Robot Framework, and knowledge in Agile methodology.
+        in software testing and two ISTQB Certifications (<strong style={{ color: secondary }}>Certified Tester Foundation Level</strong> and <strong style={{ color: secondary }}>Certified Tester Advanced Level Test Automation Engineer</strong>), 
+        I am adept in frontend and backend testing, test case creation, user requirements understanding, 
+        creating automation scripts using Selenium and Robot Framework, and knowledge in Agile methodology.
       </Text>
     </VStack>
   </GridItem>
@@ -31,7 +31,7 @@ const Headshot = () => (
     <Image
       m="auto"
       src="/me.jpg"
-      alt="Steph Macaraeg"
+      alt="Steph"
       zIndex={1}
       className="image"
       onClick={() => {
