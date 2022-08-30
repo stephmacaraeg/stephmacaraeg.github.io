@@ -17,40 +17,13 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Hi, I&apos;m Jarrod! I studied computer science at the University of
-        Toronto, and I&apos;m currently working at{" "}
-        <Link href="https://www.sailpoint.com/" isExternal>
-          SailPoint
-        </Link>{" "}
-        as a <strong style={{ color: secondary }}>Software Engineer II</strong>{" "}
-        on the Platform Workflows team. Prior to that, I was at{" "}
-        <Link href="https://www.citigroup.com/citi/" isExternal>
-          Citigroup
-        </Link>{" "}
-        &{"  "}
-        <Link href="https://citylitics.com/" isExternal>
-          Citylitics
-        </Link>{" "}
-        as a{" "}
-        <strong style={{ color: secondary }}>Software Developer Intern</strong>.
+        Hi, I&apos;m Steph! A Software Test Engineer with 6 years of experience
+        in software testing and two ISTQB Certifications (<strong style={{ color: secondary }}>Certified Tester Foundation Level</strong> and <strong style={{ color: secondary }}>Certified Tester Advanced Level Test Automation Engineer</strong>), 
+        I am adept in frontend and backend testing, test case creation, user requirements understanding, 
+        creating automation scripts using Selenium and Robot Framework, and knowledge in Agile methodology.
       </Text>
       <Text>
-        I enjoy creating scalable & elegant web/mobile applications that have a
-        real world impact. I&apos;m always learning new technologies, either
-        through{" "}
-        <Link href="https://devpost.com/jcserv" isExternal>
-          hackathons
-        </Link>{" "}
-        or studying - and recently became an{" "}
-        <strong style={{ color: secondary }}>
-          <Link
-            href="https://www.credly.com/badges/517ae2cf-990f-4e3f-acf7-c7dc692c67a0/public_url"
-            isExternal
-          >
-            AWS Certified Developer
-          </Link>
-        </strong>
-        .
+        Besides software testing I also enjoy playing games, reading books, and watching anime.
       </Text>
     </VStack>
   </GridItem>
@@ -61,11 +34,11 @@ const Headshot = () => (
     <Image
       m="auto"
       src="/me.jpg"
-      alt="Jarrod Servilla"
+      alt="Stephanie Macaraeg"
       zIndex={1}
       className="image"
       onClick={() => {
-        window.open("http://linkedin.com/in/jarrod-servilla");
+        window.open("https://www.linkedin.com/in/stephmacaraeg/");
       }}
     />
   </GridItem>
